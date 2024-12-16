@@ -1,0 +1,192 @@
+@import 'normalize.css';
+@import 'cssreset.css';
+@import 'variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+	font-family: var(--basic-font-family);
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+.container--large {
+	max-width: 1440px;
+}
+.container--small {
+	max-width: 940px;
+}
+.header {
+	background-image: url("../img/bg.png");
+	background-attachment: scroll;
+	background-size: cover;
+	height: 769px;
+	padding-top: 39px;
+}
+.header__inner {
+	text-align: center;
+}
+.logo-white {
+	display: block;
+}
+.logo-white--mb-header {
+	margin-bottom: 305px;
+}
+.header__title {
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 5.7px;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.header__subtitle {
+	display: block;
+	color: white;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	letter-spacing: 0.65px;
+	margin-bottom: 218px;
+}
+.header__scroll {
+	color: white;
+	font-size: 11px;
+	font-weight: 100;
+	line-height: 15px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.nav-section {
+	border: 1px solid #e6e6e6;
+	background: rgb(255, 255, 255);
+}
+.nav-section__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 21px 0 23px;
+}
+.logo-black {
+	display: flex;
+	align-items: center;
+}
+.logo-black__img {
+}
+.nav-menu {
+}
+.nav-menu__list {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 40.5px;
+}
+.nav-menu__link {
+	color: var(--nav-link-color);
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 16px;
+	letter-spacing: 1.09px;
+	text-transform: uppercase;
+}
+.nav-menu__link--active {
+	color: var(--accent-color-1);
+	font-weight: 700;
+}
+.about {
+}
+.about__inner {
+}
+.section-title {
+}
+.section-title__text {
+}
+.about__text {
+}
+.about__text-upper {
+}
+.about__text-lower {
+}
+.about__items-list {
+}
+.about__item {
+}
+.about__item-title {
+}
+.services {
+}
+.services__inner {
+}
+.services__header {
+}
+.services__section-title {
+}
+.services__header-text {
+}
+.services__header-button {
+}
+.services__cards {
+}
+.services__card {
+}
+.services__card-img {
+}
+.services__card-title {
+}
+.services__card-text {
+}
+.get-in-touch {
+}
+.get-in-touch__title {
+}
+.get-in-touch__btn {
+}
+.newsletter {
+}
+.newsletter__inner {
+}
+.newsletter__title {
+}
+.newsletter__input-email {
+}
+.newsletter-btn {
+}
+.footer {
+}
+.footer__inner {
+}
+.footer__company {
+}
+.footer__company-title {
+}
+.footer__company-text {
+}
+.footer__nav {
+}
+.footer__nav-title {
+}
+.footer__nav-wrapper {
+}
+.footer__nav-item {
+}
+.footer__contact-us {
+}
+.footer__contact-us-title {
+}
+.footer__contact-us-address {
+}
+.footer__contact-us-phone-number {
+}
+.footer__contact-us-e-mail {
+}
+.social-media-links {
+}
+.social-media-links__link {
+}
+.social-media-links__icon {
+}
+.footer__copyright {
+}
+.footer__copyright__text {
+}

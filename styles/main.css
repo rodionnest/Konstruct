@@ -22,6 +22,7 @@ body {
 	background-image: url("../img/bg.png");
 	background-attachment: scroll;
 	background-size: cover;
+	background-position: center;
 	height: 769px;
 	padding-top: 39px;
 }
@@ -109,8 +110,6 @@ body {
 .about {
 	margin-bottom: 118px;
 }
-.about__inner {
-}
 .section-title {
 }
 .section-title--centered {
@@ -167,7 +166,7 @@ body {
 	padding: 15px 0 0 15px;
 }
 .about__item-title {
-	color: rgb(255, 255, 255);
+	color: #fff;
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 29px;
@@ -199,11 +198,8 @@ body {
 	gap: 31px;
 	align-items: inherit;
 }
-.services__section-title {
-}
 .services__header-text {
 	width: 405px;
-	color: rgb(72, 85, 91);
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 19px;
@@ -260,7 +256,7 @@ body {
 	height: 500px;
 	background-image: url(../img/get-in-touch.png);
 	background-size: cover;
-	background-position: 0 -150px;
+	background-position: center;
 }
 .get-in-touch__title {
 	font-size: 30px;
@@ -332,8 +328,6 @@ body {
 .footer__nav {
 	margin-right: 7px;
 }
-.footer__nav-title {
-}
 .footer__nav-wrapper {
 	width: 262px;
 	height: 119px;
@@ -368,19 +362,11 @@ body {
 	flex-direction: column;
 	font-style: normal;
 }
-.footer__contact-us-address, .footer__contact-us-phone-number, .footer__contact-us-e-mail  {
-}
 .social-media-links {
 	display: flex;
 	justify-content: space-between;
 	gap: 25px;
 	padding-top: 27px;
-}
-.social-media-links__link {
-}
-.social-media-links__icon {
-}
-.footer__copyright {
 }
 .footer__copyright__text {
 	color: #fff;
@@ -389,4 +375,9 @@ body {
 	line-height: 15px;
 	letter-spacing: 0.85px;
 	text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+
 }
